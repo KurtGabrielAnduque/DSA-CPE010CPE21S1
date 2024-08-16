@@ -7,9 +7,9 @@ class Rectangle:
         print(f'AREA = {self.width * self.length} cm')
 
 
-w1 = int(input("what is the width of the rectangle in cm:"))
-l2 = int(input("what is the length of the rectangle in cm:"))
+widthh = int(input("what is the width of the rectangle in cm:"))
+lengthh = int(input("what is the length of the rectangle in cm:"))
 
-rec= Rectangle(w1,l2)
+rec= Rectangle(lengthh,widthh)
 
 rec.area()
